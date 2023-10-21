@@ -1,0 +1,3 @@
+/home/cryptic/Downloads/Space_Shooter/cmake-build-debug/CMakeFiles/Space_Shooter.dir
+/home/cryptic/Downloads/Space_Shooter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cryptic/Downloads/Space_Shooter/cmake-build-debug/CMakeFiles/rebuild_cache.dir

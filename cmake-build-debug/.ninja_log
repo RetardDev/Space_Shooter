@@ -1,0 +1,18 @@
+# ninja log v5
+0	622	1697900940161147006	CMakeFiles/untitled.dir/main.cpp.o	9ebc7fefc878f273
+1	15	1697901111318847303	build.ninja	4b70ade5202532c4
+1	561	1697900940101146125	CMakeFiles/untitled.dir/Obstacles.cpp.o	4183c0804dd4fc08
+1	480	1697900940021144949	CMakeFiles/untitled.dir/Score.cpp.o	a46a9c20340e230d
+1	530	1697900940069145654	CMakeFiles/untitled.dir/GameOverScreen.cpp.o	2322fc394fd46bdf
+1	563	1697900940105146184	CMakeFiles/untitled.dir/Player.cpp.o	1d3d38d20d43f672
+0	672	1697901116218874505	CMakeFiles/Space_Shooter.dir/Player.cpp.o	35e2315300e767f6
+0	720	1697901116266874766	CMakeFiles/Space_Shooter.dir/main.cpp.o	f488b188fe3c9430
+1	740	1697901116286874875	CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o	b591a1e5ab8d328a
+1	741	1697901116286874875	CMakeFiles/Space_Shooter.dir/Score.cpp.o	b6825675c28472d4
+0	837	1697901116382875397	CMakeFiles/Space_Shooter.dir/Obstacles.cpp.o	c9ae74a07a3a60a4
+837	907	1697901116450875765	Space_Shooter	5727a9fa7261a7a3
+1	433	1697901451394684430	CMakeFiles/Space_Shooter.dir/main.cpp.o	f488b188fe3c9430
+1	456	1697901451418684301	CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o	b591a1e5ab8d328a
+456	520	1697901451478683976	Space_Shooter	5727a9fa7261a7a3
+1	437	1697901565673928148	CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o	b591a1e5ab8d328a
+437	499	1697901565737927651	Space_Shooter	5727a9fa7261a7a3
