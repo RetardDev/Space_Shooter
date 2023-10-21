@@ -13,7 +13,7 @@ public:
 
 
     void update(sf::Event* ev);
-    void draw(sf::RenderWindow* window);
+    void draw();
 
 private:
     sf::Font font;
@@ -21,8 +21,15 @@ private:
     sf::RectangleShape restartButton;
     sf::Text restartMessage;
 
-    void initButton(sf::RenderWindow* window);
-    void initText(sf::RenderWindow* window);
+    sf::RenderWindow* window;
+
+    sf::Vector2i mousePosWindow;
+    sf::Vector2f mousePosView;
+
+
+    void updateMousePos();
+    void initButton();
+    void initText();
 
 };
 

@@ -46,7 +46,8 @@ int main() {
         }
         else if(gameState == GameState::GameOver)
         {
-            gameOverScreen.draw(&window);
+            gameOverScreen.draw();
+            gameOverScreen.update(&ev);
         }
         window.display();
     }
