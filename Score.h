@@ -13,7 +13,7 @@ public:
     Score();
     ~Score();
 
-
+    void resetScore();
     void updateScore(int points);
     int getScore() const;
     void displayScore(sf::RenderWindow *window);

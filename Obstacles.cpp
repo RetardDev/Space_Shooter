@@ -68,8 +68,8 @@ void Obstacles::initRocks() {
     this->rock.setPosition(0, -100.f);
     this->rock.setTexture(&texture);
 
-    this->uvRect.width = this->texture.getSize().x / 2;
-    this->uvRect.height = this->texture.getSize().y / 2;
+    this->uvRect.width = this->texture.getSize().x ; //change image display location
+    this->uvRect.height = this->texture.getSize().y ;
 
     this->rock.setTextureRect(this->uvRect);
     this->rock.setSize(sf::Vector2f(50.f, 50.f));

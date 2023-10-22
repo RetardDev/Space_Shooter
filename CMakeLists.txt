@@ -12,6 +12,10 @@ add_executable(Space_Shooter main.cpp
         Score.cpp
         Score.h
         GameOverScreen.cpp
-        GameOverScreen.h)
+        GameOverScreen.h
+        GameState.cpp
+        GameState.h
+        Background.cpp
+        Background.h)
 
 target_link_libraries(Space_Shooter sfml-graphics sfml-audio)

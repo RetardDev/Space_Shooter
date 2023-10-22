@@ -5,10 +5,11 @@
 #ifndef UNTITLED_PLAYER_H
 #define UNTITLED_PLAYER_H
 #include <SFML/Graphics.hpp>
+#include "Score.h"
 
 class Player {
 public:
-    Player();
+    Player(Score& score);
     ~Player();
 
 //    void renderText(sf::RenderWindow *window);
@@ -17,6 +18,7 @@ public:
     sf::Rect<float> playerBound();
     void updateHealth(int health);
     int getHealth() const;
+    void resetStats();
 
 
 
@@ -26,11 +28,13 @@ private:
 //    sf::Font font;
 //    sf::Text scoreText;
     sf::RectangleShape healthBar;
+    //add outline here
     sf::Texture healthTexture;
 
     sf::Vector2f healthOffset;
-    int score;
     unsigned int health;
+
+    Score& score;
 
     void initPlayer();
     void updateHealthBar();

@@ -79,6 +79,18 @@ build CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o: CXX_COMPILER__Space_Sho
   OBJECT_DIR = CMakeFiles/Space_Shooter.dir
   OBJECT_FILE_DIR = CMakeFiles/Space_Shooter.dir
 
+build CMakeFiles/Space_Shooter.dir/GameState.cpp.o: CXX_COMPILER__Space_Shooter_unscanned_Debug /home/cryptic/Downloads/Space_Shooter/GameState.cpp || cmake_object_order_depends_target_Space_Shooter
+  DEP_FILE = CMakeFiles/Space_Shooter.dir/GameState.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Space_Shooter.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Shooter.dir
+
+build CMakeFiles/Space_Shooter.dir/Background.cpp.o: CXX_COMPILER__Space_Shooter_unscanned_Debug /home/cryptic/Downloads/Space_Shooter/Background.cpp || cmake_object_order_depends_target_Space_Shooter
+  DEP_FILE = CMakeFiles/Space_Shooter.dir/Background.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/Space_Shooter.dir
+  OBJECT_FILE_DIR = CMakeFiles/Space_Shooter.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Space_Shooter
@@ -87,7 +99,7 @@ build CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o: CXX_COMPILER__Space_Sho
 #############################################
 # Link the executable Space_Shooter
 
-build Space_Shooter: CXX_EXECUTABLE_LINKER__Space_Shooter_Debug CMakeFiles/Space_Shooter.dir/main.cpp.o CMakeFiles/Space_Shooter.dir/Obstacles.cpp.o CMakeFiles/Space_Shooter.dir/Player.cpp.o CMakeFiles/Space_Shooter.dir/Score.cpp.o CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
+build Space_Shooter: CXX_EXECUTABLE_LINKER__Space_Shooter_Debug CMakeFiles/Space_Shooter.dir/main.cpp.o CMakeFiles/Space_Shooter.dir/Obstacles.cpp.o CMakeFiles/Space_Shooter.dir/Player.cpp.o CMakeFiles/Space_Shooter.dir/Score.cpp.o CMakeFiles/Space_Shooter.dir/GameOverScreen.cpp.o CMakeFiles/Space_Shooter.dir/GameState.cpp.o CMakeFiles/Space_Shooter.dir/Background.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1  /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
   OBJECT_DIR = CMakeFiles/Space_Shooter.dir

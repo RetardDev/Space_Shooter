@@ -43,3 +43,7 @@ void Score::displayScore(sf::RenderWindow *window) {
     window->draw(this->scoreText);
 }
 
+void Score::resetScore() {
+    this->score = 0;
+}
+

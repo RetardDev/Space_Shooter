@@ -10,7 +10,8 @@ Player::~Player() {
 
 }
 
-Player::Player():
+Player::Player(Score& score):
+    score(score),
     healthBar(sf::Vector2f(150.f, 10.f))
     {
     this->initPlayer();
@@ -18,8 +19,7 @@ Player::Player():
 }
 
 void Player::initPlayer() {
-    this->health = 100;
-    this->score = 0;
+
     if(!this->playerTexture.loadFromFile("ship.png"))
     {
         std::cout << "could not open player texture";
@@ -37,8 +37,11 @@ void Player::initPlayer() {
 //    this->healthBar.setTexture(&healthTexture);
 //    this->healthBar.setSize(sf::Vector2f(100.f, 100.f));
 ////    this->healthBar.setOrigin(this->healthBar.getSize().x / 0.5f, this->healthBar.getSize().y / 0.5f);
+    this->health = 100;
     this->healthBar.setPosition(620.f, 15.f);
     this->healthBar.setFillColor(sf::Color::Red);
+    this->healthBar.setOutlineThickness(5.f);
+    this->healthBar.setOutlineColor(sf::Color::Green);
     this->healthBar.setSize(sf::Vector2f(150.f * (this->health / 100.f), 10.f));
 
 }
@@ -95,10 +98,19 @@ void Player::updateHealthBar() {
 
 void Player::updateHealth(int health) {
     this->health += health;
+    if(this->health > 100)
+    {
+        this->health = 100;
+    }
 }
 
 int Player::getHealth() const {
     return this->health;
+}
+
+void Player::resetStats() {
+    this->score.resetScore();
+    this->health = 100;
 }
 
 
